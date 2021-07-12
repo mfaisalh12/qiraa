@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Aweesome -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="../assets/css/login.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light .bg-transparent">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Qira'a</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item ms-3 me-5 mt-2">
+              <a class="nav-link" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item ms-3 me-5 mt-2">
+              <a class="nav-link active" aria-current="page" href="#">Kajian</a>
+            </li>
+            <li class="nav-item ms-3 me-5 mt-2">
+              <a class="nav-link" aria-current="page" href="#">Qur'an</a>
+            </li>
+            <li class="nav-item ms-3 me-5 mt-2 ">
+              <a class="nav-link" aria-current="page" href="#">Kisah Islam</a>
+            </li>
+            <li class="nav-item ms-3">
+              <button type="button" class="btn btn-success">
+                <a class="green-btn" aria-current="page" href="#">Masuk</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="card container">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6 mid">
+            <img src="../assets/img/login.png" alt="">
+          </div>
+          <div class="col-md-6 mid">
+            <h2 class="title-login mb-4">Masuk</h2>
+            <form action="">
+              <div class="mb-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control">
+              </div>
+              <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password" class="form-control">
+              </div>
+              <button class="btn btn-class">Masuk</button>
+            </form>
+            <p class="ask-account">Belum punya akun? <a href="" class="daftar">Daftar Sekarang</a></p>
+            <div class="icon">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- login js -->
+  <script src="../assets/js/login.js"></script>
+  <!-- bootstrap js -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
