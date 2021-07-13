@@ -20,8 +20,8 @@
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 
   <!-- Local CSS -->
-  <link rel="stylesheet" href="../assets/css/login.css">
-  <title>Login</title>
+  <link rel="stylesheet" href="../assets/css/register.css">
+  <title>Register</title>
 </head>
 
 <body>
@@ -66,24 +66,29 @@
             <img src="../assets/img/login.png" class="img-login" alt="">
           </div>
           <div class="col-lg-6 col-md-12 mid">
-            <h2 class="title-login mb-4">Masuk</h2>
+            <h2 class="title-login mb-4">Daftar</h2>
             <form action="">
+              <div class="mb-4">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" name="nama" class="form-control">
+              </div>
               <div class="mb-4">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" name="email" class="form-control">
               </div>
-              <div class="mb-4">
+              <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" name="password" class="form-control">
               </div>
-              <button class="btn btn-class">Masuk</button>
+              <div class="d-flex">
+                <input type="checkbox" class="mt-2 me-2">
+                <p class="checkbox mb-1">Dengan ini saya setuju untuk mengikuti Ketentuan Pengguna serta Kebijakan
+                  Privasi
+                </p>
+              </div>
+              <button class="btn btn-class">Daftar</button>
             </form>
-            <p class="ask-account">Belum punya akun? <a href="register.html">Daftar Sekarang</a></p>
-            <div class="icon d-flex justify-content-center">
-              <a href="" class="m-3 ms-2"><img src="../assets/img/google.svg" alt=""></a>
-              <a href="" class="m-3"><img src="../assets/img/facebook.svg" alt=""></a>
-              <a href="" class="m-3"><img src="../assets/img/twitter.svg" alt=""></a>
-            </div>
+            <p class="ask-account">Sudah punya akun? <a href="login.html">Masuk Sekarang</a></p>
           </div>
         </div>
       </div>

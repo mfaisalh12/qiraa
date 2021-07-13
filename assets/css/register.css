@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+:root {
+	--green: #096c47;
+	--btn-green: #4aab7b;
+	--dark-green: #0f4137;
+	--light-green: #ddffbc;
+	--black-word: #000839;
+	--blue-link: #005082;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Navbar */
+.logo {
+	margin: 0;
+	font-size: 2.3em;
+	font-weight: 700;
+	background: -webkit-linear-gradient(#096c47 0%, #a3de83);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+	color: #000000 !important;
+	padding: 0 !important;
+}
+
+ul a:hover {
+	color: var(--green) !important;
+}
+
+li > a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	background: var(--green);
+	transform: scaleX(0);
+	transition: transform 0.3s;
+}
+
+li > a:hover:after {
+	transform: scaleX(1);
+	transition: transform 0.3s;
+}
+
+.active {
+	color: var(--green) !important;
+	border-bottom: 3px solid var(--green);
+}
+
+li > .active:after {
+	display: none;
+}
+
+.btn-success {
+	padding: 6px 30px !important;
+}
+
+.green-btn:hover,
+.green-btn {
+	color: white !important;
+}
+/* End Navbar */
+
+/* Login */
+.card {
+	margin-top: 2%;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.mid {
+	padding: 2rem 5rem;
+}
+
+.title-login {
+	font-weight: 500;
+	color: var(--green);
+}
+
+.form-label {
+	color: var(--black-word);
+	font-weight: 300;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	line-height: 1.5;
+	border-color: var(--btn-green) !important;
+	border-style: solid !important;
+	border-width: 0 0 1px 0 !important;
+	padding: 0px !important;
+	height: auto;
+	border-radius: 0;
+	background-color: #fff;
+	background-clip: padding-box;
+}
+
+.form-control:focus {
+	color: var(--btn-green);
+	background: #fff;
+	border-color: #fff;
+	outline: 0;
+	box-shadow: none;
+}
+
+.checkbox {
+	font-size: 0.85em;
+	font-weight: 300;
+	color: var(--black-word);
+}
+
+.btn-class {
+	padding: 10px;
+	border-color: var(--btn-green);
+	color: var(--btn-green);
+	width: 100%;
+}
+.btn-class:hover {
+	background: var(--btn-green);
+	color: white;
+}
+
+.ask-account {
+	margin-top: 6px;
+	font-weight: 300;
+}
+/* End Login */
+
+/* Footer */
+footer {
+	background: #0f4137;
+}
+
+.content-footer {
+	color: #fff !important;
+	font-weight: 300 !important;
+}
+
+.icon-footer a {
+	color: #fff !important;
+	font-size: 1.5em;
+}
+
+.icon-footer a:hover {
+	color: var(--light-green) !important;
+}
+
+.light-green {
+	color: var(--light-green) !important;
+}
+
+.line-title-footer {
+	margin: 0 0 18px;
+	width: 60px;
+	border: 0.5px solid var(--light-green);
+	opacity: 100%;
+}
+/* End Footer */
+
+@media only screen and (max-width: 720px) {
+	/* Main */
+	.img-login {
+		width: 100%;
+	}
+	/* Footer */
+	.line-title-footer {
+		margin: auto;
+		margin-bottom: 16px;
+	}
+}
