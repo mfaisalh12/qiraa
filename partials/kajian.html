@@ -20,8 +20,8 @@
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 
   <!-- Local CSS -->
-  <link rel="stylesheet" href="../assets/css/login.css">
-  <title>Login</title>
+  <link rel="stylesheet" href="../assets/css/kajian.css">
+  <title>Kajian</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
               <a class="nav-link" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item ms-3 me-5 mt-2">
-              <a class="nav-link" aria-current="page" href="#">Kajian</a>
+              <a class="nav-link active" aria-current="page" href="#">Kajian</a>
             </li>
             <li class="nav-item ms-3 me-5 mt-2">
               <a class="nav-link" aria-current="page" href="#">Qur'an</a>
@@ -59,35 +59,28 @@
   </header>
 
   <main>
-    <div class="card container">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 mid">
-            <img src="../assets/img/login.png" class="img-login" alt="">
-          </div>
-          <div class="col-lg-6 col-md-12 mid">
-            <h2 class="title-login mb-4">Masuk</h2>
-            <form action="">
-              <div class="mb-4">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" name="email" class="form-control">
-              </div>
-              <div class="mb-4">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" name="password" class="form-control">
-              </div>
-              <button class="btn btn-class">Masuk</button>
-            </form>
-            <p class="ask-account">Belum punya akun? <a href="register.html">Daftar Sekarang</a></p>
-            <div class="icon d-flex justify-content-center">
-              <a href="" class="m-3 ms-2"><img src="../assets/img/google.svg" alt=""></a>
-              <a href="" class="m-3"><img src="../assets/img/facebook.svg" alt=""></a>
-              <a href="" class="m-3"><img src="../assets/img/twitter.svg" alt=""></a>
-            </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/bg-kajian.svg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1 class="title-carousel">Qira'a <span class="live">Live</span></h1>
+            <p class="desc-carousel">Dapatkan wawasan dan ilmu <br>
+              melalui kajian online di Qira’a</p>
+            <a href=""><button class="btn btn-warning">Lihat Daftar Kajian</button></a>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="kajian container">
+      <div class="next-kajian">
+        <div class="header-next-kajian">
+          <h1 class="title-next-kajian">Kajian <span class="green">Selanjutnya</span></h1>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <footer class="text-center text-lg-start text-muted pt-3 mt-5">

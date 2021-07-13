@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+:root {
+	--green: #096c47;
+	--btn-green: #4aab7b;
+	--dark-green: #0f4137;
+	--light-green: #ddffbc;
+	--black-word: #000839;
+	--blue-link: #005082;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Navbar */
+.logo {
+	margin: 0;
+	font-size: 2.3em;
+	font-weight: 700;
+	background: -webkit-linear-gradient(#096c47 0%, #a3de83);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+	color: #000000 !important;
+	padding: 0 !important;
+}
+
+ul a:hover {
+	color: var(--green) !important;
+}
+
+li > a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	background: var(--green);
+	transform: scaleX(0);
+	transition: transform 0.3s;
+}
+
+li > a:hover:after {
+	transform: scaleX(1);
+	transition: transform 0.3s;
+}
+
+.active {
+	color: var(--green) !important;
+	border-bottom: 3px solid var(--green);
+}
+
+li > .active:after {
+	display: none;
+}
+
+.btn-success {
+	padding: 6px 30px !important;
+}
+
+.green-btn:hover,
+.green-btn {
+	color: white !important;
+}
+/* End Navbar */
+
+/* Caousel */
+.carousel-caption {
+	transform: translateY(-50%);
+	bottom: initial;
+	top: 50%;
+}
+.title-carousel {
+	font-weight: 700;
+	font-size: 3.5em;
+	margin-bottom: 3%;
+}
+.live {
+	background: #e6485d;
+	border-radius: 8px;
+	font-size: 0.8em !important;
+	padding: 7px 12px;
+}
+.desc-carousel {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+.btn-warning {
+	border-radius: 50px;
+	padding: 7px 15px;
+	color: #eac100;
+	border-color: #eac100;
+	margin: 10px 0;
+	color: #fff;
+}
+
+.btn-warning:hover {
+	color: var(--black-word);
+	background: #e4ac06;
+	border-color: #e4ac06;
+}
+/* End Carousel */
+
+/* Kajian */
+.kajian {
+	margin-top: 60px;
+}
+.title-next-kajian {
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+}
+.green {
+	color: #239d60;
+}
+/* End Next Kajian */
+
+/* Footer */
+footer {
+	background: #0f4137;
+}
+
+.content-footer {
+	color: #fff !important;
+	font-weight: 300 !important;
+}
+
+.icon-footer a {
+	color: #fff !important;
+	font-size: 1.5em;
+}
+
+.icon-footer a:hover {
+	color: var(--light-green) !important;
+}
+
+.light-green {
+	color: var(--light-green) !important;
+}
+
+.line-title-footer {
+	margin: 0 0 18px;
+	width: 60px;
+	border: 0.5px solid var(--light-green);
+	opacity: 100%;
+}
+/* End Footer */
+
+@media only screen and (max-width: 720px) {
+	/* Footer */
+	.line-title-footer {
+		margin: auto;
+		margin-bottom: 16px;
+	}
+}
