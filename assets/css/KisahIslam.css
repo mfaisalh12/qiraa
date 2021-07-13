@@ -71,45 +71,51 @@ li > .active:after {
 	color: white !important;
 	text-decoration: none;
 }
+.green-btn:after {
+	transform: none !important;
+}
+.green-btn:hover:after {
+	transform: none !important;
+}
 
 /* Jumbotron */
-.carousel-caption{
-    transform: translateY(-50%);
-    bottom: initial;
-    top: 40%;
+.carousel-caption {
+	transform: translateY(-50%);
+	bottom: initial;
+	top: 40%;
 }
-.carousel-active{
-    color: none !important;
+.carousel-active {
+	color: none !important;
 }
-.display-1{
-    font-weight: 700;
-    font-size: 5em;
+.display-1 {
+	font-weight: 700;
+	font-size: 5em;
 
-    color: #FFFFFF !important;
-}
-
-.btn-outline-secondary:hover{
-    background-color: #239D60;
-    color: #FFFFFF;
+	color: #ffffff !important;
 }
 
-.display-2{
-    font-weight: 500;
-    font-size: 1.7em;
+.btn-outline-secondary:hover {
+	background-color: #239d60;
+	color: #ffffff;
 }
-.display-3{
-    font-weight: 300;
-    font-size: 1em;
+
+.display-2 {
+	font-weight: 500;
+	font-size: 1.7em;
 }
-.deskripsi{
-    padding: 0;
-    padding-top: 60px;
+.display-3 {
+	font-weight: 300;
+	font-size: 1em;
 }
-.card{
-    border: 2px solid #e1e1e1;
+.deskripsi {
+	padding: 0;
+	padding-top: 60px;
 }
-button{
-    text-align: left;
-    border: none;
-    background-color: #FFFFFF;
+.card {
+	border: 2px solid #e1e1e1;
+}
+button {
+	text-align: left;
+	border: none;
+	background-color: #ffffff;
 }
