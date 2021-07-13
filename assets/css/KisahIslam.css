@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+:root {
+	--green: #096c47;
+	--btn-green: #4aab7b;
+	--dark-green: #0f4137;
+	--light-green: #ddffbc;
+	--black-word: #000839;
+	--blue-link: #005082;
+}
+
+/* Navbar */
+
+.logo {
+	margin: 0;
+	font-size: 2.3em;
+	font-weight: 700;
+	background: -webkit-linear-gradient(#096c47 0%, #a3de83);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+	color: #000000 !important;
+	padding: 0 !important;
+}
+
+ul a:hover {
+	color: var(--green) !important;
+}
+
+li > a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	background: var(--green);
+	transform: scaleX(0);
+	transition: transform 0.3s;
+}
+
+li > a:hover:after {
+	transform: scaleX(1);
+	transition: transform 0.3s;
+}
+
+.active {
+	color: var(--green) !important;
+	border-bottom: 3px solid var(--green);
+}
+
+li > .active:after {
+	display: none;
+}
+
+.btn-success {
+	padding: 6px 30px !important;
+}
+
+.green-btn:hover,
+.green-btn {
+	color: white !important;
+	text-decoration: none;
+}
+
+/* Jumbotron */
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 40%;
+}
+.carousel-active{
+    color: none !important;
+}
+.display-1{
+    font-weight: 700;
+    font-size: 5em;
+
+    color: #FFFFFF !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #239D60;
+    color: #FFFFFF;
+}
+
+.display-2{
+    font-weight: 500;
+    font-size: 1.7em;
+}
+.display-3{
+    font-weight: 300;
+    font-size: 1em;
+}
+.deskripsi{
+    padding: 0;
+    padding-top: 60px;
+}
+.card{
+    border: 2px solid #e1e1e1;
+}
+button{
+    text-align: left;
+    border: none;
+    background-color: #FFFFFF;
+}
