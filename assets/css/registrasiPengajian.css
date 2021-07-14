@@ -77,3 +77,46 @@ li > .active:after {
     border: 2px solid #e1e1e1;
     border-radius: 15px;
 }
+
+.title{
+    color: #096C47;
+    padding-top: 15px;
+}
+
+.title-desk{
+    font-size: 2em;
+    font-weight: 300;
+    padding-top: 15px;
+    color: #0F4137;
+}
+.desk{
+    font-size: 1.6em;
+    font-weight: 200;
+    
+}
+.ustad .desk{
+    padding-top: 15px;
+}
+
+/* deskripsi */
+hr{
+    width: 60%;
+    border: 2px solid #096C47!important;
+    text-align: center;
+}
+
+/* daftar */
+.daftar{
+    background-color: #239D60;
+    height: 70px;
+    color: white;
+    padding-top: 17px;
+}
+.btn-desk{
+    background-color: #FFFFFF ;
+    color: #239D60;
+    border-radius: 50px;
+    width: 170px;
+    font-size: 1em;
+    font-weight: 500;
+}

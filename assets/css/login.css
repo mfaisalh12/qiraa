@@ -73,6 +73,13 @@ li > .active:after {
 .green-btn {
 	color: white !important;
 }
+.green-btn:after {
+	transform: none !important;
+}
+.green-btn:hover:after {
+	transform: none !important;
+}
+
 /* End Navbar */
 
 /* Login */
