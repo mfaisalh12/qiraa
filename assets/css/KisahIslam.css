@@ -113,3 +113,46 @@ button{
     border: none;
     background-color: #FFFFFF;
 }
+
+/* Footer */
+footer {
+	background: #0f4137;
+}
+
+.content-footer {
+	color: #fff !important;
+	font-weight: 300 !important;
+}
+
+.icon-footer a {
+	color: #fff !important;
+	font-size: 1.5em;
+}
+
+.icon-footer a:hover {
+	color: var(--light-green) !important;
+}
+
+.light-green {
+	color: var(--light-green) !important;
+}
+
+.line-title-footer {
+	margin: 0 0 18px;
+	width: 60px;
+	border: 0.5px solid var(--light-green);
+	opacity: 100%;
+}
+/* End Footer */
+
+@media only screen and (max-width: 720px) {
+	/* Main */
+	.img-login {
+		width: 100%;
+	}
+	/* Footer */
+	.line-title-footer {
+		margin: auto;
+		margin-bottom: 16px;
+	}
+}
