@@ -130,6 +130,12 @@ li > .active:after {
 .green {
 	color: #239d60;
 }
+.title-line {
+	width: 8rem;
+	border: 2px solid #239d60;
+	opacity: 0.8;
+	margin: auto;
+}
 /* End Next Kajian */
 
 /* Footer */
