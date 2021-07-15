@@ -141,6 +141,7 @@ li > .active:after {
 	color: var(--btn-green);
 	width: 100%;
 }
+
 .btn-class:hover {
 	background: var(--btn-green);
 	color: white;

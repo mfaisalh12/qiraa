@@ -19,6 +19,10 @@ body {
 	--blue-link: #005082;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* Navbar */
 
 .logo {
@@ -152,14 +156,9 @@ footer {
 /* End Footer */
 
 @media only screen and (max-width: 720px) {
-	/* Main */
-	.img-login {
-		width: 100%;
-	}
 	/* Footer */
 	.line-title-footer {
 		margin: auto;
 		margin-bottom: 16px;
 	}
 }
-
