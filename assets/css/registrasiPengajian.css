@@ -101,16 +101,20 @@ li > .active:after {
 /* deskripsi */
 hr{
     width: 60%;
-    border: 2px solid #096C47!important;
-    text-align: center;
+    border: 2px solid #239D60!important;
+    margin: auto;
+	opacity: 1;
+	margin-bottom:15px ;
 }
-
+p{
+	font-size: 1.4em;
+}
 /* daftar */
 .daftar{
     background-color: #239D60;
-    height: 70px;
     color: white;
     padding-top: 17px;
+	margin-top: 40px;
 }
 .btn-desk{
     background-color: #FFFFFF ;
@@ -119,4 +123,8 @@ hr{
     width: 170px;
     font-size: 1em;
     font-weight: 500;
+}
+.btn-desk:hover{
+	background-color: #D3D3D3 ;
+	color: #239D60;
 }
