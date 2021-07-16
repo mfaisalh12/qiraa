@@ -72,72 +72,42 @@ li > .active:after {
 	text-decoration: none;
 }
 
-/* card info regist */
-.card{
-    border: 2px solid #e1e1e1;
-    border-radius: 15px;
-}
-.gratis-btn{
-	height: 31px;
-	width: 93px;
-	border: 3px solid #929292;
-	color:#929292 ;
-	
-}
-.title{
-    color: #096C47;
-    padding-top: 15px;
-}
-
-.title-desk{
-    font-size: 2em;
-    font-weight: 300;
-    padding-top: 15px;
-    color: #0F4137;
-}
-.desk{
-    font-size: 1.6em;
-    font-weight: 200;
+/* profile */
+.card {
+	border: 2px solid #e1e1e1;
+    border-radius: 12px;
     
 }
-.ustad .desk{
-    padding-top: 15px;
+.card-sampul{
+    background: url(/assets/img/baground-profile.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.settings{
+    width: 28px;
+    height: 28px;
+    
 }
 
-/* deskripsi */
-hr{
-    width: 60%;
-    border: 2px solid #239D60!important;
-    margin: auto;
-	opacity: 1;
-	margin-bottom:15px ;
+
+/* pengajian */
+.deskripsi{
+    text-align: start;
+    margin-top: 45px;
+    margin-left: 3em;
 }
-p{
-	font-size: 1.4em;
+.img-pengajian{
+    padding-right: 9em;
 }
-.share-icon{
-	border-radius: 50%;
-	height: 42px;
-	width: 42px;
-	margin-right: 15px;
-	font-size: 0.7rem;
-}
-/* daftar */
-.daftar{
-    background-color: #239D60;
-    color: white;
-    padding-top: 17px;
-	margin-top: 40px;
-}
-.btn-desk{
-    background-color: #FFFFFF ;
-    color: #239D60;
-    border-radius: 50px;
-    width: 170px;
-    font-size: 1em;
+.display-2{
+    font-size: 1.8em;
     font-weight: 500;
 }
-.btn-desk:hover{
-	background-color: #D3D3D3 ;
-	color: #239D60;
+.display-3{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+button{
+    border: none;
 }
