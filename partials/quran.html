@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Aweesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/quran.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light .bg-transparent">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Qira'a</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item ms-3 me-5 mt-2">
+              <a class="nav-link" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item ms-3 me-5 mt-2">
+              <a class="nav-link" aria-current="page" href="kajian.html">Kajian</a>
+            </li>
+            <li class="nav-item ms-3 me-5 mt-2">
+              <a class="nav-link active active-nav" aria-current="page" href="quran.html">Qur'an</a>
+            </li>
+            <li class="nav-item ms-3 me-5 mt-2 ">
+              <a class="nav-link" aria-current="page" href="KisahIslam.html">Kisah Islam</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="green-btn" aria-current="page" href="login.html">
+                <button type="button" class="btn btn-success">Masuk</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Jumbotron -->
+      <div class="row">
+        <div class="col-md-6 col-sm-12 p-4">
+          <img src="../assets/img/jumbotron-quran.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6 col-sm-12 text-center my-auto p-4">
+          <h1 class="quran-title">Al-Qur'an</h1>
+          <p class="quran-desc mt-4">Kami menyediakan Al-Qur’an online, agar membantu antum
+            membaca Al-Qur’an dimana saja</p>
+        </div>
+      </div>
+      <!-- search -->
+      <div>
+        <form class="d-flex p-5">
+          <input class="form-control" type="search" placeholder="Cari surah atau juz di sini">
+          <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <!-- Surah -->
+      <div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+              role="tab" aria-controls="home" aria-selected="true">Surah</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+              role="tab" aria-controls="profile" aria-selected="false">Juz</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
+              tabindex="0">
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>1</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>Al - Fatihah (7 Ayat)</h3>
+                  <p>Pembukaan | Mekah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    الفاتحة
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>2</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>Al - Baqarah (286 Ayat)</h3>
+                  <p>Sapi Betina | Madinah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    البقرة
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>3</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>Ali - 'Imran (200 Ayat)</h3>
+                  <p>Keluarga Imran | Madinah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    آل عمران
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>4</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>An Nisaa (176 Ayat)</h3>
+                  <p>Pembukaan | Mekah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    النساء
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>5</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>Al Maidah (120 Ayat)</h3>
+                  <p>Pembukaan | Mekah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    المائدة
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>6</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>Al An'am (165 Ayat)</h3>
+                  <p>Pembukaan | Mekah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    الأنعام
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="col-lg-2 m-auto">
+                  <h3>7</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h3>Al- A'raf</h3>
+                  <p>Pembukaan | Mekah</p>
+                </div>
+                <div class="col-lg-2 m-auto">
+                  <h3>
+                    الأعراف
+                  </h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+        </div>
+      </div>
+
+  </main>
+
+  <footer class="text-center text-lg-start text-muted pt-3 mt-5">
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 content-footer">
+            <h4 class="text-uppercase mb-3 fw-bold light-green">
+              Qira'a
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna
+              aliqua. Et malesuada fames ac turpis.
+            </p>
+            <div class="icon-footer">
+              <a href="" class="me-4"><i class="fab fa-instagram"></i></a>
+              <a href="" class="me-4"><i class="fab fa-youtube"></i></a>
+              <a href="" class="me-4"><i class="fab fa-facebook-square"></i></a>
+              <a href="" class="me-4"><i class="fab fa-twitter-square"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 content-footer">
+            <h6 class="text-uppercase fw-bold">
+              Tentang Kami
+            </h6>
+            <hr class="line-title-footer">
+            <p>
+              <a href="#!" class="text-reset">About Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Kebijakan Privasi</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Faq</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 content-footer">
+            <h6 class="text-uppercase fw-bold">
+              Hubungi Kami
+            </h6>
+            <hr class="line-title-footer">
+            <p><i class="fas fa-map-marker-alt me-3 mb-0"></i> Jl. Rambutan Lurus No.14, Kedondong, Kec. Buah Sehat,
+              Kota
+              Surabaya,
+              Jawa Timur</p>
+            <p>
+              <i class="fas fa-phone-alt me-3"></i>
+              (+62) 812-3456-7890
+            </p>
+            <p><i class="fas fa-envelope me-3"></i>admin@qiraa.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Copyright -->
+    <div class="text-center p-4 content-footer">
+      Copyright ©2021
+      <a class="light-green" href="">PT Qira'a Nusantara</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- login js -->
+  <script src="../assets/js/login.js"></script>
+  <!-- bootstrap js -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+/* Main */
+.quran-title {
+	font-size: 3em;
+	font-weight: 700;
+	background: -webkit-linear-gradient(#096c47 0%, #a3de83);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.quran-desc {
+	font-size: 1.2em;
+}
+/* End Main */
