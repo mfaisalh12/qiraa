@@ -3,61 +3,62 @@
 	margin-top: 2%;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
 }
-
 .mid {
 	padding: 2rem 5rem;
 }
-
 .title-login {
 	font-weight: 500;
 	color: var(--green);
 }
-
+.content {
+	width: 100%;
+	position: relative;
+}
 .form-label {
 	color: var(--black-word);
-	font-weight: 300;
+	font-weight: 400;
 }
-
 .form-control {
-	display: block;
 	width: 100%;
-	line-height: 1.5;
-	border-color: var(--btn-green) !important;
-	border-style: solid !important;
-	border-width: 0 0 1px 0 !important;
 	padding: 0px !important;
-	height: auto;
-	border-radius: 0;
-	background-color: #fff;
-	background-clip: padding-box;
+	border: 0 !important;
+	border-bottom: 1px solid #ccc !important;
 }
-
+.form-control ~ .focus-border {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: var(--btn-green);
+	transition: 0.4s;
+}
 .form-control:focus {
-	color: var(--btn-green);
-	background: #fff;
-	border-color: #fff;
-	outline: 0;
 	box-shadow: none;
 }
-
+.form-control:focus ~ .focus-border {
+	width: 100%;
+	transition: 0.4s;
+}
+::placeholder {
+	color: #ccc !important;
+	font-weight: 300;
+}
 .checkbox {
 	font-size: 0.85em;
 	font-weight: 300;
 	color: var(--black-word);
 }
-
 .btn-class {
 	padding: 10px;
 	border-color: var(--btn-green);
 	color: var(--btn-green);
 	width: 100%;
 }
-
 .btn-class:hover {
 	background: var(--btn-green);
 	color: white;
 }
-
 .ask-account {
 	margin-top: 6px;
 	font-weight: 300;
