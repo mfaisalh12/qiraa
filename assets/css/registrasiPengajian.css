@@ -3,10 +3,16 @@
 	border: 2px solid #e1e1e1;
 	border-radius: 15px;
 }
-
-.title {
-	color: #096c47;
-	padding-top: 15px;
+.gratis-btn{
+	height: 31px;
+	width: 93px;
+	border: 3px solid #929292;
+	color:#929292 ;
+	
+}
+.title{
+    color: #096C47;
+    padding-top: 15px;
 }
 
 .title-desk {
@@ -33,6 +39,13 @@ hr {
 }
 p {
 	font-size: 1.4em;
+}
+.share-icon{
+	border-radius: 50%;
+	height: 42px;
+	width: 42px;
+	margin-right: 15px;
+	font-size: 0.7rem;
 }
 /* daftar */
 .daftar {
