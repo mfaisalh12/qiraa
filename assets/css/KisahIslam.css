@@ -4,9 +4,6 @@
 	bottom: initial;
 	top: 40%;
 }
-.carousel-active {
-	color: none !important;
-}
 .display-1 {
 	font-weight: 700;
 	font-size: 5em;
