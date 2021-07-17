@@ -1,38 +1,71 @@
 /* Jumbotron */
+main {
+	background: #f2f2f2;
+	padding-bottom: 5%;
+}
+.img-carousel {
+	height: 100%;
+	display: block;
+	margin: auto;
+}
 .carousel-caption {
 	transform: translateY(-50%);
 	bottom: initial;
-	top: 40%;
+	top: 28%;
 }
 .display-1 {
 	font-weight: 700;
 	font-size: 5em;
-
 	color: #ffffff !important;
 }
-
 .btn-outline-secondary:hover {
 	background-color: #239d60;
 	color: #ffffff;
 }
-
+.title-input {
+	padding: 8px 0;
+	font-size: 1.1em;
+}
 .display-2 {
 	font-weight: 500;
-	font-size: 1.7em;
+	font-size: 1.7rem;
 }
 .display-3 {
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 1rem;
 }
 .deskripsi {
-	padding: 0;
-	padding-top: 60px;
+	margin: auto;
 }
-.card {
-	border: 2px solid #e1e1e1;
+.pointer {
+	cursor: pointer;
+	transition: transform 0.3s;
 }
-button {
-	text-align: left;
-	border: none;
-	background-color: #ffffff;
+.pointer:hover {
+	transform: scale(1.05);
+}
+.row div img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+	.carousel-caption {
+		top: 50%;
+	}
+	.mt-4 {
+		margin-top: 1.5% !important;
+	}
+	.display-1 {
+		margin: auto;
+		font-size: 2.8rem;
+	}
+	.display-2 {
+		margin-bottom: 4px;
+		font-weight: 500;
+		font-size: 1rem;
+	}
+	.display-3 {
+		font-weight: 300;
+		font-size: 0.8rem;
+	}
 }

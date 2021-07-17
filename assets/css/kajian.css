@@ -1,6 +1,6 @@
 /* Caousel */
 .img-carousel {
-	width: 100rem;
+	height: 80vh;
 }
 .carousel-caption {
 	transform: translateY(-50%);
