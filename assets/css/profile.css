@@ -1,69 +1,63 @@
 /* profile */
 .card {
 	border: 2px solid #e1e1e1;
-    border-radius: 12px;
-
+	border-radius: 12px;
 }
-.card-sampul{
-    background:url(/assets/img/baground-profile.jpg);
-    background-size: cover;
-    /* background: url(/assets/img/baground-profile.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden; */
+.card-sampul {
+	background: url(/assets/img/baground-profile.jpg);
+	background-size: cover;
 }
-.settings{
-    border-radius: 50%;
+.settings {
+	border-radius: 50%;
 	height: 42px;
 	width: 42px;
 	font-size: 1.8rem;
-    background:rgb(255,255,255,0.2);
-    color:#239D60;
-    margin-right: 30px;
-    margin-top: 30px;
+	background: rgb(255, 255, 255, 0.2);
+	color: #239d60;
+	margin-right: 30px;
+	margin-top: 30px;
 }
 
-.profile{
-    margin-top: 20px;
-    margin-bottom: 100px;
+.profile {
+	margin-top: 20px;
+	margin-bottom: 100px;
 }
-.profile-pic{
-    margin-left: 100px;
+.profile-pic {
+	margin-left: 100px;
 }
-.profile-desk{
-    margin-top: 40px;
+.profile-desk {
+	margin-top: 40px;
 }
-.name{
-    font-weight: 500;
-    font-size: 3em;
+.name {
+	font-weight: 500;
+	font-size: 3em;
 }
-.email{
-    font-weight: normal;
-    font-size: 2.8em;
-    color: #239D60;
+.email {
+	font-weight: normal;
+	font-size: 2.8em;
+	color: #239d60;
 }
 /* pengajian */
-.deskripsi{
-    text-align: start;
-    margin-top: 45px;
-    margin-left: 3em;
+.deskripsi {
+	text-align: start;
+	margin-top: 45px;
+	margin-left: 3em;
 }
-.img-pengajian{
-    padding-right: 9em;
+.img-pengajian {
+	padding-right: 9em;
 }
-.display-2{
-    font-size: 1.8em;
-    font-weight: 500;
+.display-2 {
+	font-size: 1.8em;
+	font-weight: 500;
 }
-.display-3{
-    font-size: 1.2em;
-    font-weight: 300;
+.display-3 {
+	font-size: 1.2em;
+	font-weight: 300;
 }
-button{
-    border: none;
+button {
+	border: none;
 }
-.desk-icon{
-    margin-right:15px;
-    color: #239D60;
+.desk-icon {
+	margin-right: 15px;
+	color: #239d60;
 }
-
