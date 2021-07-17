@@ -37,19 +37,19 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item ms-3 me-5 mt-2">
+            <li class="nav-item me-5 mt-2">
               <a class="nav-link" aria-current="page" href="../index.html">Beranda</a>
             </li>
-            <li class="nav-item ms-3 me-5 mt-2">
+            <li class="nav-item me-5 mt-2">
               <a class="nav-link active active-nav" aria-current="page" href="kajian.html">Kajian</a>
             </li>
-            <li class="nav-item ms-3 me-5 mt-2">
+            <li class="nav-item me-5 mt-2">
               <a class="nav-link" aria-current="page" href="quran.html">Qur'an</a>
             </li>
-            <li class="nav-item ms-3 me-5 mt-2 ">
+            <li class="nav-item me-5 mt-2 ">
               <a class="nav-link" aria-current="page" href="kisahIslam.html">Kisah Islam</a>
             </li>
-            <li class="nav-item ms-3">
+            <li class="nav-item">
               <a class="green-btn" aria-current="page" href="login.html">
                 <button type="button" class="btn btn-success">Masuk</button>
               </a>
@@ -61,10 +61,10 @@
   </header>
 
   <main>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../assets/img/bg-kajian.svg" class="d-block w-100" alt="...">
+          <img src="../assets/img/bg-kajian.svg" class="img-carousel" alt="...">
           <div class="carousel-caption">
             <h1 class="title-carousel">Qira'a <span class="live">Live</span></h1>
             <p class="desc-carousel">Dapatkan wawasan dan ilmu <br>
@@ -78,21 +78,30 @@
     <div class="kajian container">
       <div class="next-kajian">
         <div class="header-next-kajian">
-          <h1 class="title-next-kajian">KAJIAN <span class="green">SELANJUTNYA</span></h1>
+          <h1 class="title-kajian">KAJIAN <span class="green">SELANJUTNYA</span></h1>
           <hr class="title-line">
-          <p class="text-center">Segera daftar di kajian terbaru dan dapatkan ilmu yang bermanfaat</p>
+          <p class="text-center desc-title">Segera daftar di kajian terbaru dan dapatkan ilmu yang bermanfaat</p>
         </div>
-        <div class="d-flex justify-content-evenly mt-5">
+        <div class="d-flex flex-wrap justify-content-evenly mt-5">
           <div class="card" style="width: 22rem;">
             <img src="/assets/img/khalidbasalamah.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Aqidah, Tauhid, dan Manhaj</h5>
-              <div class="card-text">
-                <p><i class="fa fa-calendar green"></i> Sabtu, 24 Oktober 2021 </p>
-                <p><i class="fa fa-clock green"></i> 20.00 WIB</p>
-                <p><i class="fa fa-map-marker-alt green"></i> Live di Qira'a Website </p>
-                <p><i class="fa fa-user green"></i> Ustaz Khalid Basalamah</p>
-                <p><i class="fa fa-ticket-alt green"></i> Free</p>
+              <div class="card-text row">
+                <div class="col-1">
+                  <p><i class="fa fa-calendar green"></i></p>
+                  <p><i class="fa fa-clock green"></i></p>
+                  <p><i class="fa fa-map-marker-alt green"></i></p>
+                  <p><i class="fa fa-user green"></i></p>
+                  <p><i class="fa fa-ticket-alt green"></i></p>
+                </div>
+                <div class="col-11">
+                  <p>Sabtu, 24 Oktober 2021 </p>
+                  <p>20.00 WIB</p>
+                  <p>Live di Qira'a Website </p>
+                  <p>Ustaz Khalid Basalamah</p>
+                  <p>Free</p>
+                </div>
               </div>
             </div>
           </div>
@@ -100,12 +109,21 @@
             <img src="/assets/img/adihidayat.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Antara Sholat dan Pertolongan Allah SWT</h5>
-              <div class="card-text">
-                <p><i class="fa fa-calendar green"></i> Selasa, 26 Oktober 2021 </p>
-                <p><i class="fa fa-clock green"></i> 20.00 WIB</p>
-                <p><i class="fa fa-map-marker-alt green"></i> Live di Qira'a Website </p>
-                <p><i class="fa fa-user green"></i> Ustaz Adi Hidayat</p>
-                <p><i class="fa fa-ticket-alt green"></i> Free</p>
+              <div class="card-text row">
+                <div class="col-1">
+                  <p><i class="fa fa-calendar green"></i></p>
+                  <p><i class="fa fa-clock green"></i></p>
+                  <p><i class="fa fa-map-marker-alt green"></i></p>
+                  <p><i class="fa fa-user green"></i></p>
+                  <p><i class="fa fa-ticket-alt green"></i></p>
+                </div>
+                <div class="col-11">
+                  <p>Selasa, 26 Oktober 2021</p>
+                  <p>20.00 WIB</p>
+                  <p>Live di Qira'a Website </p>
+                  <p>Ustaz Adi Hidayat</p>
+                  <p>Free</p>
+                </div>
               </div>
             </div>
           </div>
@@ -114,24 +132,33 @@
 
       <div class="next-kajian mt-5 pt-3">
         <div class="header-next-kajian">
-          <h1 class="title-next-kajian">KAJIAN <span class="green">SEBELUMNYA</span></h1>
+          <h1 class="title-kajian">KAJIAN <span class="green">SEBELUMNYA</span></h1>
           <hr class="title-line">
-          <p class="text-center">Belum sempat mengikuti acara dari Qira’a sebelumnya? Tenang saja, kalian
+          <p class="text-center desc-title">Belum sempat mengikuti acara dari Qira’a sebelumnya? Tenang saja, kalian
             masih bisa
             menontonnya melalui Youtube channel
             Qira’a! Jangan lupa subscribe ya!</p>
         </div>
-        <div class="d-flex justify-content-evenly mt-5">
+        <div class="d-flex flex-wrap justify-content-evenly mt-5">
           <div class="card" style="width: 22rem;">
             <img src="/assets/img/abdulsomad.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hidup Adalah Ibadah, Hati Tenang Stress Hilang</h5>
-              <div class="card-text">
-                <p><i class="fa fa-calendar green"></i> Selasa, 13 Juli 2021 </p>
-                <p><i class="fa fa-clock green"></i> 20.00 WIB</p>
-                <p><i class="fa fa-map-marker-alt green"></i> Live di Qira'a Website </p>
-                <p><i class="fa fa-user green"></i> Ustaz Abdul Somad</p>
-                <p><i class="fa fa-ticket-alt green"></i> Free</p>
+              <div class="card-text row">
+                <div class="col-1">
+                  <p><i class="fa fa-calendar green"></i></p>
+                  <p><i class="fa fa-clock green"></i></p>
+                  <p><i class="fa fa-map-marker-alt green"></i></p>
+                  <p><i class="fa fa-user green"></i></p>
+                  <p><i class="fa fa-ticket-alt green"></i></p>
+                </div>
+                <div class="col-11">
+                  <p>Selasa, 13 Juli 2021</p>
+                  <p>20.00 WIB</p>
+                  <p>Live di Qira'a Website </p>
+                  <p>Ustaz Abdul Somad</p>
+                  <p>Free</p>
+                </div>
               </div>
             </div>
           </div>
@@ -139,12 +166,21 @@
             <img src="/assets/img/aagym.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Sabar Menghadapi Musibah</h5>
-              <div class="card-text">
-                <p><i class="fa fa-calendar green"></i> Sabtu, 10 Juli 2021 </p>
-                <p><i class="fa fa-clock green"></i> 20.00 WIB</p>
-                <p><i class="fa fa-map-marker-alt green"></i> Live di Qira'a Website </p>
-                <p><i class="fa fa-user green"></i> AA Gym</p>
-                <p><i class="fa fa-ticket-alt green"></i> Free</p>
+              <div class="card-text row">
+                <div class="col-1">
+                  <p><i class="fa fa-calendar green"></i></p>
+                  <p><i class="fa fa-clock green"></i></p>
+                  <p><i class="fa fa-map-marker-alt green"></i></p>
+                  <p><i class="fa fa-user green"></i></p>
+                  <p><i class="fa fa-ticket-alt green"></i></p>
+                </div>
+                <div class="col-11">
+                  <p>Sabtu, 10 Juli 2021</p>
+                  <p>20.00 WIB</p>
+                  <p>Live di Qira'a Website </p>
+                  <p>AA Gym</p>
+                  <p>Free</p>
+                </div>
               </div>
             </div>
           </div>
@@ -152,12 +188,21 @@
             <img src="/assets/img/gusmiftah.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Obat Gundah dan Gelisah</h5>
-              <div class="card-text">
-                <p><i class="fa fa-calendar green"></i> Kamis, 8 Juli 2021 </p>
-                <p><i class="fa fa-clock green"></i> 20.00 WIB</p>
-                <p><i class="fa fa-map-marker-alt green"></i> Live di Qira'a Website </p>
-                <p><i class="fa fa-user green"></i> Gus Miftah</p>
-                <p><i class="fa fa-ticket-alt green"></i> Free</p>
+              <div class="card-text row">
+                <div class="col-1">
+                  <p><i class="fa fa-calendar green"></i></p>
+                  <p><i class="fa fa-clock green"></i></p>
+                  <p><i class="fa fa-map-marker-alt green"></i></p>
+                  <p><i class="fa fa-user green"></i></p>
+                  <p><i class="fa fa-ticket-alt green"></i></p>
+                </div>
+                <div class="col-11">
+                  <p>Kamis, 8 Juli 2021</p>
+                  <p>20.00 WIB</p>
+                  <p>Live di Qira'a Website </p>
+                  <p>Gus Miftah</p>
+                  <p>Free</p>
+                </div>
               </div>
             </div>
           </div>
@@ -166,7 +211,6 @@
           Banyak</button>
       </div>
     </div>
-
   </main>
 
   <footer class="text-center text-lg-start text-muted pt-3 mt-5">
