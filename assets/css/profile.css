@@ -1,51 +1,75 @@
 /* profile */
 .card {
-	border: 2px solid #e1e1e1;
 	border-radius: 12px;
+	box-shadow: 0px 0px 8px rgba(85, 85, 85, 0.12);
 }
 .card-sampul {
 	background: url(/assets/img/baground-profile.jpg);
 	background-size: cover;
+	padding: 2% 2% 6% 2%;
 }
-.settings {
-	border-radius: 50%;
-	height: 42px;
-	width: 42px;
-	font-size: 1.8rem;
-	background: rgb(255, 255, 255, 0.2);
+.bi-gear {
+	font-size: 2rem;
 	color: #239d60;
-	margin-right: 30px;
-	margin-top: 30px;
+	cursor: pointer;
+	transition: transform 0.3s;
 }
-
+.bi-gear:hover {
+	transform: scale(1.1);
+}
 .profile {
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin: 0 5%;
+	padding: 0 7%;
 }
+.col-3 {
+	padding: 0;
+}
+.img-pengajian,
 .profile-pic {
-	margin-left: 100px;
+	width: 100%;
 }
 .profile-desk {
-	margin-top: 40px;
+	margin: auto 0;
+	padding: 0 4%;
 }
 .name {
-	font-weight: 500;
-	font-size: 3em;
+	font-weight: 600;
+	font-size: 2rem;
+	margin: 0;
 }
 .email {
-	font-weight: normal;
-	font-size: 2.8em;
+	font-weight: 400;
+	font-size: 1.7rem;
 	color: #239d60;
+}
+
+/* Bar Pengajian */
+
+.bar {
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	background: #f6f6f6;
+}
+.btn-bar {
+	width: 100%;
+	height: 100%;
+	background: none !important;
+	font-weight: 400;
+}
+.bar .active {
+	color: var(--btn-green) !important;
+	border-bottom: 3px solid var(--btn-green);
+	font-weight: 500;
+	transition: 0.3s;
 }
 /* pengajian */
 .deskripsi {
 	text-align: start;
-	margin-top: 45px;
-	margin-left: 3em;
+	margin: auto 0;
+	padding: 0 4%;
 }
-.img-pengajian {
-	padding-right: 9em;
-}
+
 .display-2 {
 	font-size: 1.8em;
 	font-weight: 500;
@@ -54,10 +78,68 @@
 	font-size: 1.2em;
 	font-weight: 300;
 }
-button {
-	border: none;
-}
 .desk-icon {
-	margin-right: 15px;
+	margin-right: 0.6em;
 	color: #239d60;
+}
+.pointer {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+	.bi-gear,
+	.name {
+		font-size: 1.5rem;
+	}
+	.email {
+		font-size: 1.2rem;
+	}
+
+	.display-2 {
+		font-size: 1rem;
+	}
+	.display-3 {
+		font-size: 0.9rem;
+	}
+}
+@media only screen and (max-width: 760px) {
+	.bi-gear,
+	.name {
+		font-size: 1.2rem;
+	}
+	.email {
+		font-size: 1rem;
+	}
+	.bar {
+		height: 26px;
+		font-size: 9px;
+	}
+	.display-2 {
+		font-size: 14px;
+	}
+	.desk-icon,
+	.display-3 {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.bi-gear,
+	.name {
+		font-size: 1rem;
+	}
+	.email {
+		font-size: 0.7rem;
+	}
+	.bar {
+		height: 26px;
+		font-size: 9px;
+	}
+	.display-2 {
+		font-size: 11px;
+	}
+	.desk-icon,
+	.display-3 {
+		font-size: 8px;
+	}
 }
