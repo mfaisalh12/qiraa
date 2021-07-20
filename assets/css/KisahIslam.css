@@ -24,7 +24,10 @@ main {
 }
 .title-input {
 	padding: 8px 0;
-	font-size: 1.1em;
+	font-size: 1.12em;
+}
+.form-check {
+	font-size: 1em;
 }
 .display-2 {
 	font-weight: 500;
@@ -67,5 +70,16 @@ main {
 	.display-3 {
 		font-weight: 300;
 		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.title-input {
+		padding: 4px 0 0;
+		font-size: 0.95em;
+	}
+	.form-check {
+		margin-right: 4px;
+		font-size: 0.8em;
 	}
 }
