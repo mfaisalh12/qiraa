@@ -7,7 +7,17 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.quran-desc {
+.quran-desc {	
 	font-size: 1.2em;
+}
+
+.card {
+	border: 2px solid #e1e1e1;
+	padding: 15px;
+}
+button {
+	text-align: left;
+	border: none;
+	background-color: #ffffff;
 }
 /* End Main */
