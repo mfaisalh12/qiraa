@@ -31,7 +31,6 @@
 	margin: 10px 0;
 	color: #fff;
 }
-
 .btn-warning:hover {
 	color: var(--black-word);
 	background: #e4ac06;
@@ -53,6 +52,9 @@
 	margin-top: 15px;
 	padding: 0 10%;
 }
+.pointer {
+	cursor: pointer;
+}
 .green {
 	color: #239d60;
 }
@@ -61,6 +63,25 @@
 	border: 2px solid #239d60;
 	opacity: 0.8;
 	margin: auto;
+}
+.card-img-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.card-img-wrap:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.card-img-wrap img {
+	transition: transform 0.25s;
+	width: 100%;
+}
+.card-img-wrap:hover img {
+	transform: scale(1.1);
 }
 .card-body {
 	padding: 5% 7%;
