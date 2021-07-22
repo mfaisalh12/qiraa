@@ -1,0 +1,167 @@
+/* modal */
+.modal-dialog{
+    width: 300px;
+}
+.modal-content{
+    border-radius: 10px;
+}
+.modal-close{
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+}
+.modal-title{
+    font-weight: 800;
+    font-size: 1.4em;
+}
+.modal-body{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.modal-footer{
+    background: #E1E1E1;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.modal-url{
+    font-size: 1em;
+    font-weight: 500;
+}
+.modal-url-btn{
+    background: none;
+    border: none;
+    font-size: 0.5rem;
+}
+/* meet */
+.meet-display{
+    background: black;
+    padding: 0;
+}
+.img-carousel{
+    height: 80%;
+    width: 100%;
+}
+.icon{
+    background-color: #212125;
+    padding: 15px;  
+    
+}
+.icon-meet{
+    border-radius: 50%;
+    height: 64px;
+	width: 64px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 0.8rem;
+    border: none;
+    background-color: #F6F6F6;
+    
+}
+.chat-icon{
+    color: #239D60; 
+}
+.infaq-img{
+    height: 0.9rem;
+}
+.exit{
+    background-color: #E90707!important;
+    color: white;
+}
+
+/* chat */
+.chat-display{
+    background: #f2f2f2;
+    padding: 0px;
+}
+.chat-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    
+}
+.chat-close{
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    text-align: end;
+    
+}
+
+.chat{
+    border: 2px solid #dedede;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.chat::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.chat-anda{
+    border-color: #ccc;
+    background-color: #fff;
+}
+
+.chat img{
+    float: left;
+    justify-content: center;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 50%;
+    
+}
+.avatar{
+    padding: 0px;
+}
+.chat-anda{
+    text-align: right;
+}
+
+.chat img.avatar-right {
+    float: right;
+    margin-left: 5px;
+    margin-right:0;
+}
+.chat-dialog{
+    margin-bottom: 2px;
+}
+.chat-likes{
+    margin-top: 6px
+}
+.chat-like-btn{
+    float: left;
+    border: none;
+    background: none;
+    font-size: 0.5rem;
+}
+.chat-like-desk{
+    margin-left: 8px;
+    padding: 0px;
+}
+
+.chat-input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    
+}
+.chat-send{
+    background: #E1E1E1;
+    border-radius: 22px;
+    padding: 5px;
+    
+}
+.form-control{
+    background: none;
+    border: none;
+}
+.chat-send-btn{
+    border: none;
+    background: none;
+    font-size: 0.6rem;
+    padding-right: 10px;
+}
