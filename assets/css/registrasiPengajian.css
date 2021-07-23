@@ -3,35 +3,35 @@
 	border: 2px solid #e1e1e1;
 	border-radius: 15px;
 }
-.gratis-btn{
+.gratis-btn {
 	height: 31px;
 	width: 93px;
-	border: 3px solid #929292;
-	color:#929292 ;
-	
+	border: 2px solid #c4c4c4;
+	color: #6d6d6d;
 }
-.title{
-    color: #096C47;
-    padding-top: 15px;
+.title {
+	color: #096c47;
+	font-size: 2rem;
 }
-
 .title-desk {
-	font-size: 2em;
-	font-weight: 300;
+	font-size: 1.5rem;
+}
+.share-text,
+.deskripsi-title {
+	font-size: 1.5rem;
+	font-weight: 500;
 	padding-top: 15px;
 	color: #0f4137;
 }
 .desk {
 	font-size: 1.6em;
 	font-weight: 200;
-}
-.ustad .desk {
-	padding-top: 15px;
+	margin: 0;
 }
 
 /* deskripsi */
 hr {
-	width: 60%;
+	width: 45%;
 	border: 2px solid #239d60 !important;
 	margin: auto;
 	opacity: 1;
@@ -40,29 +40,82 @@ hr {
 p {
 	font-size: 1.4em;
 }
-.share-icon{
+
+.share-icon {
 	border-radius: 50%;
+	border: 1px solid #239d60;
 	height: 42px;
 	width: 42px;
-	margin-right: 15px;
+	margin: 0 15px;
 	font-size: 0.7rem;
+	color: #239d60;
+	background: #fff;
+	transition: transform 0.3s;
+}
+.share-icon:hover {
+	transform: scale(1.1);
 }
 /* daftar */
 .daftar {
 	background-color: #239d60;
 	color: white;
-	padding-top: 17px;
-	margin-top: 40px;
 }
 .btn-desk {
 	background-color: #ffffff;
 	color: #239d60;
-	border-radius: 50px;
-	width: 170px;
-	font-size: 1em;
+	border-radius: 25px;
+	padding: 0 3em;
+	font-size: 1.3em;
 	font-weight: 500;
 }
 .btn-desk:hover {
 	background-color: #d3d3d3;
 	color: #239d60;
+}
+
+@media only screen and (max-width: 760px) {
+	.share-text,
+	.deskripsi-title,
+	.title {
+		font-size: 1.5rem;
+	}
+	.title-desk,
+	.daftar-desk {
+		font-size: 1.1rem;
+	}
+	.deskripsi p,
+	.desk {
+		font-size: 1rem;
+	}
+	.btn-desk {
+		padding: 0 5%;
+		font-size: 0.8rem;
+	}
+	.daftar img {
+		width: 30px;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.share-text,
+	.deskripsi-title,
+	.title {
+		font-size: 1rem;
+	}
+	.title-desk,
+	.deskripsi p,
+	.daftar-desk {
+		font-size: 0.8rem;
+	}
+
+	.btn-desk,
+	.desk {
+		font-size: 0.6rem;
+	}
+	.col-3,
+	.col {
+		padding-right: 0;
+	}
+	.daftar img {
+		width: 28px;
+	}
 }
