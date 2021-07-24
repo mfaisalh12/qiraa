@@ -1,0 +1,95 @@
+header {
+	background-color: #c5ffa6;
+	padding-bottom: 100px;
+	background-image: url('../img/bg-hero.svg');
+	background-size: 350px;
+	background-repeat: no-repeat;
+	background-position: -50px -170px;
+}
+
+/* Hero */
+.heading {
+	font-size: 2.5rem;
+}
+.p-heading {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+.highlight {
+	color: #239d60;
+}
+.btn-light {
+	padding: 5px;
+}
+.laptop {
+	width: 100%;
+	height: 100%;
+}
+.scene {
+	background-image: url('/assets/img/bg-hero-2.svg');
+	background-position: 180px 120px;
+	background-repeat: no-repeat;
+	background-size: 260px;
+}
+/* End Hero */
+.title-section {
+	font-size: 2.2rem;
+}
+.section-istiqomah {
+	margin-top: 60px;
+	margin-bottom: 120px;
+}
+.img-spesial {
+	background-color: #239d60;
+	padding: 20px;
+	border-radius: 50%;
+	width: 80px;
+}
+.spesial-title {
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+.spesial-content {
+	padding: 4%;
+}
+
+/* Fitur */
+.card {
+	padding: 10px 0;
+}
+.fitur-text {
+	font-size: 1rem;
+}
+.fitur-screen {
+	padding: 0 2rem;
+	width: 100%;
+	object-fit: contain;
+}
+.accordion-button {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+.accordion-button i {
+	color: #239d60;
+}
+.accordion-item {
+	margin: 12px 0;
+	background: #fff;
+}
+
+.accordion-item:hover .accordion-button {
+	color: #239d60;
+}
+
+.accordion-button::after {
+	display: none;
+}
+.accordion-button:not(.collapsed) {
+	color: #000;
+	border-left: 4px solid #239d60;
+}
+@media only screen and (max-width: 1000px) {
+	.img-hero {
+		width: 100%;
+	}
+}
