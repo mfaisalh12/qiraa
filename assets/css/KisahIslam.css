@@ -4,9 +4,7 @@ main {
 	padding-bottom: 5%;
 }
 .img-carousel {
-	height: 100%;
-	display: block;
-	margin: auto;
+	width: 100%;
 }
 .carousel-caption {
 	transform: translateY(-50%);
@@ -52,6 +50,12 @@ main {
 }
 
 @media only screen and (max-width: 760px) {
+	.img-carousel {
+		width: auto;
+		height: 100%;
+		display: block;
+		margin: auto;
+	}
 	.carousel-caption {
 		top: 50%;
 	}
