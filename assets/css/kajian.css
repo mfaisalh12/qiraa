@@ -39,9 +39,13 @@
 /* End Carousel */
 
 /* Kajian */
-
 .kajian {
 	margin-top: 60px;
+}
+.registrasi-link,
+.registrasi-link:hover {
+	text-decoration: none;
+	color: black;
 }
 .title-kajian {
 	font-weight: 700;
