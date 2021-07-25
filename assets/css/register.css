@@ -45,7 +45,7 @@
 	font-weight: 300;
 }
 .checkbox {
-	font-size: 0.85em;
+	font-size: 0.8rem;
 	font-weight: 300;
 	color: var(--black-word);
 }
@@ -72,5 +72,8 @@
 	}
 	.mid {
 		padding: 2rem;
+	}
+	.checkbox {
+		font-size: 0.9em;
 	}
 }
