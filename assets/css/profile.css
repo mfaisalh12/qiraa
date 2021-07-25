@@ -56,6 +56,7 @@
 	height: 100%;
 	background: none !important;
 	font-weight: 400;
+	border-radius: 0 !important;
 }
 .bar .active {
 	color: var(--btn-green) !important;

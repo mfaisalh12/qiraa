@@ -28,144 +28,128 @@
 
 <body>
   <main>
-    <div class="meet">
-      <div class="modal fade " id="qrcode" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Scan QR Code untuk infaq</h5>
-              <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close">
-                <i class="fas fa-times"></i>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="/assets/img/icon/qr_code.png" alt="">
+    <!-- Stream -->
+    <div class="d-flex flex-wrap">
+      <div class="col-lg-9 col-sm-12 meet-display px-0">
+        <img src="../assets/img/ustd-meet 2.png" class="w-100">
+        <div class="icon d-flex align-items-center">
+          <div>
+            <button class="icon-meet infaq-icon" data-bs-toggle="modal" data-bs-target="#qrcode">
+              INFAQ
+            </button>
+          </div>
+          <div class="mx-auto">
+            <button class="icon-meet chat-icon">
+              <i class="bi bi-chat-text-fill fa-2x"></i>
+            </button>
+            <button class="icon-meet exit">
+              <i class="bi bi-box-arrow-right fa-2x"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- End Stream -->
+      <!-- Chat -->
+      <div class="col-lg-3 col-sm-12 chat-display">
+        <div class="d-flex chat-title justify-content-end container">
+          <h4 class="mx-auto mb-0">Chat</h4>
+          <button class="chat-close" type="button" aria-label="close">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
 
+        <div class="container massage">
+          <div class="row chat">
+            <div class="col-2 avatar">
+              <img src="../assets/img/icon/admint_profil.png" alt="avatar">
             </div>
-            <div class="modal-footer justify-content-between">
-              <h6 class="modal-url">https://kitabisa.com/Qiroaa-infaq</h6>
-              <button type="button" class="modal-url-btn">
-                <i class="fas fa-external-link-alt fa-2x"></i>
+            <div class="col-10">
+              <h5 class="chat-name">Admint</h5>
+              <p class="chat-dialog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua</p>
+              <div class="d-flex chat-likes">
+                <button class="chat-like-btn" type="button">
+                  <i class="fas fa-thumbs-up fa-2x"></i>
+                </button>
+                <p class="chat-like-desk my-auto">15</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row chat chat-anda">
+            <div class="col-10">
+              <h5 class="chat-name">Anda</h5>
+              <p class="chat-dialog">ullamcorper a lacus vestibulum sed arcu ?</p>
+              <div class="d-flex chat-likes justify-content-end">
+                <button class="chat-like-btn" type="button">
+                  <i class="fas fa-thumbs-up fa-2x"></i>
+                </button>
+                <p class="chat-like-desk my-auto">2</p>
+              </div>
+            </div>
+            <div class="col-2 avatar">
+              <img src="../assets/img/icon/anda_profil.png" alt="avatar" class="avatar-right">
+            </div>
+          </div>
+
+          <div class="row chat">
+            <div class="col-2 avatar">
+              <img src="../assets/img/icon/indah_profil.png" alt="avatar">
+            </div>
+            <div class="col-10">
+              <h5 class="chat-name">Indah</h5>
+              <p class="chat-dialog">luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo
+                ?</p>
+              <div class="d-flex chat-likes">
+                <button class="chat-like-btn" type="button">
+                  <i class="fas fa-thumbs-up fa-2x"></i>
+                </button>
+                <p class="chat-like-desk my-auto">5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input container ">
+          <div class="row chat-send">
+            <div class="col-11 chat-send-main">
+              <textarea rows="1" id="comment" class="form-control" placeholder="Ketik pesan disini"></textarea>
+            </div>
+            <div class="col-1 chat-send-main-btn my-auto">
+              <button class="chat-send-btn" type="button">
+                <i class="fas fa-paper-plane fa-2x"></i>
               </button>
             </div>
           </div>
         </div>
       </div>
+      <!-- End-Chat -->
+    </div>
 
-      <div class="row">
-        <div class="col-lg-9 col-sm-12 meet-display">
-          <div class="row meet-img">
-            <img src="/assets/img/ustd-meet 2.png" class="img-carousel" alt="...">
-          </div>
-          <div class="icon">
-            <div class="row my-auto">
-              <div class="col-lg-2 col-sm-2">
-                <div class="d-flex justify-content-center">
-                  <button class="icon-meet" data-bs-toggle="modal" data-bs-target="#qrcode">
-                    <img src="/assets//img/icon/infaq.png" class="infaq-img" alt="">
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-10 col-sm-10">
-                <div class="d-flex justify-content-center">
-                  <button class="icon-meet chat-icon">
-                    <i class="bi bi-chat-text-fill fa-2x"></i>
-                  </button>
-                  <button class="icon-meet exit">
-                    <i class="bi bi-box-arrow-right fa-2x"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- chat -->
-        <div class="col-lg-3 col-sm-12 chat-display">
-
-          <div class="d-flex chat-title justify-content-end container">
-            <h4 class="mx-auto mb-0">Chat</h4>
-            <button class="chat-close" type="button" aria-label="close">
+    <!-- Modal -->
+    <div class="modal fade" id="qrcode" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Scan QR Code untuk infaq</h5>
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close">
               <i class="fas fa-times"></i>
             </button>
           </div>
-
-          <div class="container massage">
-            <div class="row ">
-              <div class="row chat">
-                <div class="col-2 avatar">
-                  <img src="/assets/img/icon/admint_profil.png" alt="avatar">
-                </div>
-                <div class="col-10">
-                  <h5 class="chat-name">Admint</h5>
-                  <p class="chat-dialog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua</p>
-                  <div class="d-flex chat-likes">
-                    <button class="chat-like-btn" type="button">
-                      <i class="fas fa-thumbs-up fa-2x"></i>
-                    </button>
-                    <p class="chat-like-desk my-auto">15</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row chat chat-anda">
-                <div class="col-10">
-                  <h5 class="chat-name">Anda</h5>
-                  <p class="chat-dialog">ullamcorper a lacus vestibulum sed arcu ?</p>
-                  <div class="d-flex chat-likes justify-content-end">
-                    <button class="chat-like-btn" type="button">
-                      <i class="fas fa-thumbs-up fa-2x"></i>
-                    </button>
-                    <p class="chat-like-desk my-auto">2</p>
-                  </div>
-                </div>
-                <div class="col-2 avatar">
-                  <img src="/assets/img/icon/anda_profil.png" alt="avatar" class="avatar-right">
-                </div>
-              </div>
-
-              <div class="row chat">
-                <div class="col-2 avatar">
-                  <img src="/assets/img/icon/indah_profil.png" alt="avatar">
-                </div>
-                <div class="col-10">
-                  <h5 class="chat-name">Indah</h5>
-                  <p class="chat-dialog">luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo
-                    ?</p>
-                  <div class="d-flex chat-likes">
-                    <button class="chat-like-btn" type="button">
-                      <i class="fas fa-thumbs-up fa-2x"></i>
-                    </button>
-                    <p class="chat-like-desk my-auto">5</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="modal-body text-center">
+            <img src="../assets/img/icon/qr_code.png" alt="">
 
           </div>
-
-          <form>
-            <div class="chat-input container ">
-              <div class="row chat-send">
-                <div class="col-11 chat-send-main">
-                  <textarea rows="1" id="comment" class="form-control" placeholder="Ketik pesan disini"></textarea>
-                </div>
-                <div class="col-1 chat-send-main-btn my-auto">
-                  <button class="chat-send-btn" type="button">
-                    <i class="fas fa-paper-plane fa-2x"></i>
-                  </button>
-                </div>
-              </div>
-
-            </div>
-          </form>
-
+          <div class="modal-footer justify-content-between">
+            <h6 class="modal-url">https://kitabisa.com/Qiraa-infaq</h6>
+            <button type="button" class="modal-url-btn">
+              <i class="fas fa-external-link-alt fa-2x"></i>
+            </button>
+          </div>
         </div>
-
       </div>
-
-
     </div>
+    <!-- End Modal -->
   </main>
 
 

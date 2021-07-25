@@ -1,226 +1,190 @@
 /* modal */
-.modal-dialog{
-    width: 300px;
+.modal-dialog {
+	width: 300px;
+	margin: auto;
 }
-.modal-content{
-    border-radius: 10px;
+.modal-content {
+	border-radius: 10px;
 }
-.modal-close{
-    background: none;
-    border: none;
-    font-size: 1.4rem;
+.modal-close {
+	background: none;
+	border: none;
+	font-size: 1.4rem;
 }
-.modal-title{
-    font-weight: 800;
-    font-size: 1.4em;
+.modal-title {
+	font-weight: 800;
+	font-size: 1rem;
 }
-.modal-body{
-    font-size: 3.5rem;
-    text-align: center;
+.modal-footer {
+	background: #e1e1e1;
+	margin: 8px;
+	padding: 3px;
+	border-radius: 5px;
 }
-.modal-footer{
-    background: #E1E1E1;
-    margin: 8px;
-    padding: 3px;
-    border-radius: 5px;
+.modal-url {
+	font-size: 0.7rem;
+	font-weight: 500;
 }
-.modal-url{
-    font-size: 1em;
-    font-weight: 500;
+.modal-url-btn {
+	background: none;
+	border: none;
+	font-size: 0.5rem;
 }
-.modal-url-btn{
-    background: none;
-    border: none;
-    font-size: 0.5rem;
+
+/* Stream */
+
+.icon {
+	padding: 16px;
+	background-color: black;
 }
-/* meet */
-body{
-    --mdc-font-size: 2vmin;
-    --gm-button--font-size: 1em;
-    font-size: .9rem;
-    font-weight: 400;
-    height: 100%;
-    margin: 0;
-    overflow-x: hidden;
-    user-select: none;
-    width: 100%;
-}
-.meet{
-    left: 0;
-    min-height: 100%;
-    
-    top: 0;
-    width: 100%;
-}
-.meet-display{
-    background: black;
-    padding: 0;
-}
-.img-carousel{
-    height: 100%;
-    width: 100%;
-    /* padding-top: calc(3%);
-    padding-bottom: calc(3%); */
-}
-.icon{
-    background-color: #212125;
-    padding: 15px;  
-    margin-top: 0.15rem; ;
-}
-.icon-meet{
-    border-radius: 50%;
-    height: 64px;
+.icon-meet {
+	border-radius: 50%;
+	height: 64px;
 	width: 64px;
-    margin-left: 3px;
-    margin-right: 3px;
-    font-size: 0.8rem;
-    border: none;
-    background-color: #F6F6F6;
-    
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 0.8rem;
+	border: none;
+	background-color: #f6f6f6;
 }
-.chat-icon{
-    color: #239D60; 
+.infaq-icon {
+	color: #239d60;
+	font-weight: 600;
+	font-size: 1rem;
 }
-.infaq-img{
-    height: 0.9rem;
+.chat-icon {
+	color: #239d60;
 }
-.exit{
-    background-color: #E90707!important;
-    color: white;
+.exit {
+	background-color: #e90707 !important;
+	color: white;
 }
 
 /* chat */
-.chat-display{
-    background: #f2f2f2;
-    padding: 0px;
+.chat-display {
+	background: #f2f2f2;
+	padding: 0px;
+	overflow: hidden;
 }
-.chat-title{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: #fff;
-    
+.chat-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #fff;
 }
-.chat-close{
-    background: none;
-    border: none;
-    font-size: 1.4rem;
-    text-align: end;
-    
-}
-
-.massage{
-
-    background-size: cover;
-    overflow-y: auto;
-    border: 1px solid #f7f7f7;
-    height: calc(100% - 115px);
-}
-.chat{
-    border: 2px solid #dedede;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-}
-.chat::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-.chat-anda{
-    border-color: #ccc;
-    background-color: #fff;
+.chat-close {
+	background: none;
+	border: none;
+	font-size: 1.4rem;
+	text-align: end;
 }
 
-.chat img{
-    float: left;
-    justify-content: center;
-    max-width: 60px;
-    width: 100%;
-    margin-right: 5px;
-    border-radius: 50%;
-    
+.massage {
+	background-size: cover;
+	border: 1px solid #f7f7f7;
+	height: calc(100% - 115px);
 }
-.avatar{
-    padding: 0px;
+.chat {
+	border: 2px solid #dedede;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
 }
-.chat-anda{
-    text-align: right;
+.chat::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.chat-anda {
+	border-color: #ccc;
+	background-color: #fff;
+}
+
+.chat img {
+	float: left;
+	justify-content: center;
+	max-width: 60px;
+	width: 100%;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.avatar {
+	padding: 0px;
+}
+.chat-anda {
+	text-align: right;
 }
 
 .chat img.avatar-right {
-    float: right;
-    margin-left: 5px;
-    margin-right:0;
+	float: right;
+	margin-left: 5px;
+	margin-right: 0;
 }
-.chat-dialog{
-    margin-bottom: 2px;
+.chat-dialog {
+	margin-bottom: 2px;
 }
-.chat-likes{
-    margin-top: 6px
+.chat-likes {
+	margin-top: 6px;
 }
-.chat-like-btn{
-    float: left;
-    border: none;
-    background: none;
-    font-size: 0.5rem;
+.chat-like-btn {
+	float: left;
+	border: none;
+	background: none;
+	font-size: 0.5rem;
 }
-.chat-like-desk{
-    margin-left: 8px;
-    padding: 0px;
+.chat-like-desk {
+	margin-left: 8px;
+	padding: 0px;
 }
 
-.chat-input{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: #fff;
-    
+.chat-input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #fff;
 }
-.chat-send{
-    background: #E1E1E1;
-    border-radius: 22px;
-    /* height: 40px; */
-    width: 100%;
-   
-    padding: 0px!important;
-    margin: 0 !important;
-    /* z-index: 1000; */
-    
-    
+.chat-send {
+	background: #e1e1e1;
+	border-radius: 22px;
+	/* height: 40px; */
+	width: 100%;
+
+	padding: 0px !important;
+	margin: 0 !important;
+	/* z-index: 1000; */
 }
-.chat-send-main{
-    padding: 2px 5px !important
+.chat-send-main {
+	padding: 2px 5px !important;
 }
-.chat-send-main textarea{
-    width: 100%;
-    resize: none;
-    overflow: hidden;
-    padding: 5px !important;
-    outline: none;
-    border: none;
-    text-indent: 5px;
-    box-shadow: none;
-    height: 100%;
-    font-size: 16px;
+.chat-send-main textarea {
+	width: 100%;
+	resize: none;
+	overflow: hidden;
+	padding: 5px !important;
+	outline: none;
+	border: none;
+	text-indent: 5px;
+	box-shadow: none;
+	height: 100%;
+	font-size: 16px;
 }
 .chat-send-main textarea:focus {
-    outline: none;
-    border: none;
-    text-indent: 5px;
-    box-shadow: none;
-    background: none;
+	outline: none;
+	border: none;
+	text-indent: 5px;
+	box-shadow: none;
+	background: none;
 }
 
-.form-control{
-    background: none;
-    border: none;
+.form-control {
+	background: none;
+	border: none;
 }
-.chat-send-main-btn{
-    padding: 0px;
+.chat-send-main-btn {
+	padding: 0px;
 }
-.chat-send-btn{
-    border: none;
-    background: none;
-    font-size: 0.5rem;
-    color: #239D60;
+.chat-send-btn {
+	border: none;
+	background: none;
+	font-size: 0.5rem;
+	color: #239d60;
 }
