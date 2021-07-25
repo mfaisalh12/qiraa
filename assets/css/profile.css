@@ -4,7 +4,7 @@
 	box-shadow: 0px 0px 8px rgba(85, 85, 85, 0.12);
 }
 .card-sampul {
-	background: url(/assets/img/baground-profile.jpg);
+	background: url(../img/baground-profile.jpg);
 	background-size: cover;
 	padding: 2% 2% 6% 2%;
 }
