@@ -21,13 +21,16 @@ header {
 .btn-light {
 	padding: 5px;
 }
+.btn-light:hover {
+	background: #f2f2f2;
+}
 .laptop {
 	width: 100%;
 	height: 100%;
 }
 .scene {
-	background-image: url('/assets/img/bg-hero-2.svg');
-	background-position: 180px 120px;
+	background-image: url('../img/bg-hero-2.svg');
+	background-position: 290px 120px;
 	background-repeat: no-repeat;
 	background-size: 260px;
 }
@@ -35,10 +38,16 @@ header {
 .title-section {
 	font-size: 2.2rem;
 }
+/* istiqomah */
 .section-istiqomah {
 	margin-top: 60px;
 	margin-bottom: 120px;
 }
+.text-istiqomah p,
+.text-istiqomah a {
+	font-size: 1.2em;
+}
+/* spesial */
 .img-spesial {
 	background-color: #239d60;
 	padding: 20px;

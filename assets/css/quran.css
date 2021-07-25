@@ -18,7 +18,7 @@
 	transition: 0.3s;
 }
 .quran-title {
-	font-size: 3em;
+	font-size: 3.2em;
 	font-weight: 700;
 	background: -webkit-linear-gradient(#096c47 0%, #a3de83);
 	-webkit-background-clip: text;
@@ -28,7 +28,7 @@
 	cursor: pointer;
 }
 .quran-desc {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 .card {
 	border: 2px solid #e1e1e1;
